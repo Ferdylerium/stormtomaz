@@ -1,0 +1,82 @@
+Wed Feb 12 16:15:53.636 versionArrayTest passed
+Wed Feb 12 16:15:53.637 shardKeyTest passed
+Wed Feb 12 16:15:53.637 isInRangeTest passed
+Wed Feb 12 16:15:53.637 shardObjTest passed
+Wed Feb 12 16:15:53.651 BackgroundJob starting: DataFileSync
+Wed Feb 12 16:15:53.659 [initandlisten] MongoDB starting : pid=338129 port=27017 dbpath=data 64-bit host=ex-c9-node18.prod.rhcloud.com
+Wed Feb 12 16:15:53.660 [initandlisten] db version v2.4.6
+Wed Feb 12 16:15:53.660 [initandlisten] git version: nogitversion
+Wed Feb 12 16:15:53.660 [initandlisten] build info: Linux x86-023.build.eng.bos.redhat.com 2.6.18-371.el5 #1 SMP Thu Sep 5 21:21:44 EDT 2013 x86_64 BOOST_LIB_VERSION=1_41
+Wed Feb 12 16:15:53.660 [initandlisten] allocator: tcmalloc
+Wed Feb 12 16:15:53.660 [initandlisten] options: { bind_ip: "127.5.182.129", dbpath: "data", logappend: true, logpath: "data/server1.log", nojournal: true, rest: true, verbose: true }
+Wed Feb 12 16:15:53.727 [initandlisten] flushing directory data
+Wed Feb 12 16:15:53.751 [initandlisten] opening db:  local
+Wed Feb 12 16:15:53.754 [initandlisten] enter repairDatabases (to check pdfile version #)
+Wed Feb 12 16:15:53.755 [initandlisten] 	local
+Wed Feb 12 16:15:53.756 [initandlisten] done repairDatabases
+Wed Feb 12 16:15:53.760 [initandlisten] run command local.$cmd { create: "startup_log", size: 10485760, capped: true }
+Wed Feb 12 16:15:53.760 [initandlisten] opening db:  local
+Wed Feb 12 16:15:53.761 [initandlisten] create collection local.startup_log { create: "startup_log", size: 10485760, capped: true }
+Wed Feb 12 16:15:53.761 [initandlisten] command local.$cmd command: { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0  reslen:75 1ms
+Wed Feb 12 16:15:53.762 BackgroundJob starting: TTLMonitor
+Wed Feb 12 16:15:53.762 BackgroundJob starting: PeriodicTask::Runner
+Wed Feb 12 16:15:53.762 BackgroundJob starting: ClientCursorMonitor
+Wed Feb 12 16:15:53.763 BackgroundJob starting: snapshot
+Wed Feb 12 16:15:53.763 [initandlisten] insert local.startup_log ninserted:1 keyUpdates:0  1ms
+Wed Feb 12 16:15:53.764 [initandlisten] fd limit hard:16384 soft:1024 max conn: 819
+Wed Feb 12 16:15:53.764 [initandlisten] waiting for connections on port 27017
+Wed Feb 12 16:15:53.764 [websvr] fd limit hard:16384 soft:1024 max conn: 819
+Wed Feb 12 16:15:53.764 [websvr] admin web console waiting for connections on port 28017
+Wed Feb 12 16:16:06.274 [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+Wed Feb 12 16:16:06.274 [signalProcessingThread] now exiting
+Wed Feb 12 16:16:06.274 dbexit: 
+Wed Feb 12 16:16:06.274 [signalProcessingThread] shutdown: going to close listening sockets...
+Wed Feb 12 16:16:06.274 [signalProcessingThread] closing listening socket: 7
+Wed Feb 12 16:16:06.274 [signalProcessingThread] closing listening socket: 8
+Wed Feb 12 16:16:06.274 [signalProcessingThread] shutdown: going to flush diaglog...
+Wed Feb 12 16:16:06.274 [signalProcessingThread] shutdown: going to close sockets...
+Wed Feb 12 16:16:06.290 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Wed Feb 12 16:16:06.291 [signalProcessingThread] shutdown: closing all files...
+Wed Feb 12 16:16:06.291 [signalProcessingThread] closeAllFiles() finished
+Wed Feb 12 16:16:06.291 [signalProcessingThread] shutdown: removing fs lock...
+Wed Feb 12 16:16:06.291 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Wed Feb 12 16:17:04.850 versionArrayTest passed
+Wed Feb 12 16:17:04.851 shardKeyTest passed
+Wed Feb 12 16:17:04.851 isInRangeTest passed
+Wed Feb 12 16:17:04.851 shardObjTest passed
+Wed Feb 12 16:17:04.868 BackgroundJob starting: DataFileSync
+Wed Feb 12 16:17:04.966 [initandlisten] MongoDB starting : pid=339583 port=27017 dbpath=data 64-bit host=ex-c9-node18.prod.rhcloud.com
+Wed Feb 12 16:17:04.967 [initandlisten] db version v2.4.6
+Wed Feb 12 16:17:04.967 [initandlisten] git version: nogitversion
+Wed Feb 12 16:17:04.967 [initandlisten] build info: Linux x86-023.build.eng.bos.redhat.com 2.6.18-371.el5 #1 SMP Thu Sep 5 21:21:44 EDT 2013 x86_64 BOOST_LIB_VERSION=1_41
+Wed Feb 12 16:17:04.967 [initandlisten] allocator: tcmalloc
+Wed Feb 12 16:17:04.977 [initandlisten] options: { bind_ip: "127.5.182.129", dbpath: "data", logappend: true, logpath: "data/server1.log", nojournal: true, rest: true, verbose: true }
+Wed Feb 12 16:17:05.001 [initandlisten] flushing directory data
+Wed Feb 12 16:17:05.022 [initandlisten] opening db:  local
+Wed Feb 12 16:17:05.024 [initandlisten] enter repairDatabases (to check pdfile version #)
+Wed Feb 12 16:17:05.024 [initandlisten] 	local
+Wed Feb 12 16:17:05.025 [initandlisten] done repairDatabases
+Wed Feb 12 16:17:05.026 [initandlisten] run command local.$cmd { create: "startup_log", size: 10485760, capped: true }
+Wed Feb 12 16:17:05.026 [initandlisten] opening db:  local
+Wed Feb 12 16:17:05.026 [initandlisten] create collection local.startup_log { create: "startup_log", size: 10485760, capped: true }
+Wed Feb 12 16:17:05.027 [initandlisten] command local.$cmd command: { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0  reslen:75 0ms
+Wed Feb 12 16:17:05.027 [initandlisten] insert local.startup_log ninserted:1 keyUpdates:0  0ms
+Wed Feb 12 16:17:05.027 [initandlisten] fd limit hard:16384 soft:1024 max conn: 819
+Wed Feb 12 16:17:05.027 [initandlisten] waiting for connections on port 27017
+Wed Feb 12 16:17:05.038 BackgroundJob starting: snapshot
+Wed Feb 12 16:17:05.039 BackgroundJob starting: ClientCursorMonitor
+Wed Feb 12 16:17:05.039 BackgroundJob starting: PeriodicTask::Runner
+Wed Feb 12 16:17:05.039 BackgroundJob starting: TTLMonitor
+Wed Feb 12 16:17:05.039 [websvr] fd limit hard:16384 soft:1024 max conn: 819
+Wed Feb 12 16:17:05.039 [websvr] admin web console waiting for connections on port 28017
+Wed Feb 12 16:18:01.138 [initandlisten] connection accepted from 127.5.182.129:27853 #1 (1 connection now open)
+Wed Feb 12 16:18:01.140 [conn1] run command admin.$cmd { replSetGetStatus: 1.0, forShell: 1.0 }
+Wed Feb 12 16:18:01.140 [conn1] command admin.$cmd command: { replSetGetStatus: 1.0, forShell: 1.0 } ntoreturn:1 keyUpdates:0  reslen:76 0ms
+Wed Feb 12 16:18:04.870 [DataFileSync] flushing mmaps took 2ms  for 2 files
+Wed Feb 12 16:18:05.043 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:0 keyUpdates:0 locks(micros) r:2078 nreturned:0 reslen:20 2ms
+Wed Feb 12 16:18:08.994 [conn1] run command admin.$cmd { logRotate: 1.0 }
