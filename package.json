@@ -23,5 +23,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ferdylerium/stormtomaz/issues"
+  },
+  {
+  "engines": {
+    "node": "0.10.x"
   }
+}
 }
