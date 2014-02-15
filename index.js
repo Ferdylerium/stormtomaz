@@ -1,7 +1,7 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var routes = require('./routes');
+var routes = require('./routes/home.js');
 
 var app = express();
 var port = Number(process.env.PORT || 5000);
@@ -13,6 +13,7 @@ app.configure(function(){
     app.use(express.json());
     app.use(express.urlencoded());
     app.use(express.methodOverride());
+    app.use(app.router);
     app.use(express.static(path.join(__dirname, 'public')));
 });
 
