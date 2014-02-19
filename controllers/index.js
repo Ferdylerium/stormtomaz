@@ -1,0 +1,1 @@
+exports.indexController = require('./indexController');
